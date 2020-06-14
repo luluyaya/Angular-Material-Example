@@ -1,0 +1,12 @@
+<div class="container">
+    <div class="flexBox">
+<h1 class="h1margin" >表單範例</h1>
+<mat-card class="example-card">
+    <form [formGroup]="form" (ngSubmit)="onSubmit(model)">
+        <formly-form [form]="form" [fields]="fields" [model]="model"></formly-form>
+        <button type="submit" mat-raised-button color="primary">送出表單</button>
+      </form>
+</mat-card>
+</div>
+</div>
+
