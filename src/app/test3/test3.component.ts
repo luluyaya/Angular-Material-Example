@@ -39,6 +39,8 @@ export class Test3Component implements OnInit {
 
   ngOnInit() {
     this.dataSource.paginator = this.paginator;
+
+    
   }
 
   applyFilter(event: Event) {
